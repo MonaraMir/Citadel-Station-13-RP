@@ -6,7 +6,7 @@
 /area/tradeport/cyndishow)
 "ab" = (
 /obj/structure/table/steel_reinforced,
-/obj/item/rig/internalaffairs,
+/obj/item/hardsuit/internalaffairs,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/trade_ship/general)
 "ad" = (
@@ -1904,9 +1904,6 @@
 /turf/simulated/floor/wood,
 /area/tradeport/commons)
 "hs" = (
-/obj/structure/closet/walllocker/autolok_wall{
-	pixel_y = 24
-	},
 /obj/structure/closet/secure_closet/guncabinet{
 	anchored = 1;
 	req_access = list(160);
@@ -1968,18 +1965,16 @@
 /obj/structure/closet/crate/freezer{
 	name = "exotic meats freezer"
 	},
-/obj/random/meat,
-/obj/random/meat,
-/obj/random/meat,
-/obj/random/meat,
-/obj/random/meat,
-/obj/random/meat,
+/obj/random/meat/no_sapient,
+/obj/random/meat/no_sapient,
+/obj/random/meat/no_sapient,
+/obj/random/meat/no_sapient,
+/obj/random/meat/no_sapient,
+/obj/random/meat/no_sapient,
 /obj/structure/window/reinforced,
 /obj/item/reagent_containers/food/snacks/xenomeat,
 /obj/item/reagent_containers/food/snacks/xenomeat,
 /obj/item/reagent_containers/food/snacks/meat/worm,
-/obj/item/reagent_containers/food/snacks/meat/vox,
-/obj/item/reagent_containers/food/snacks/meat/vox,
 /obj/item/reagent_containers/food/snacks/bearmeat,
 /obj/item/reagent_containers/food/snacks/bearmeat,
 /turf/simulated/floor/tiled/dark,
@@ -5552,7 +5547,7 @@
 /obj/random/soap,
 /obj/item/storage/bag/trash,
 /obj/item/mop,
-/obj/item/rig_module/cleaner_launcher,
+/obj/item/hardsuit_module/cleaner_launcher,
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 4
 	},

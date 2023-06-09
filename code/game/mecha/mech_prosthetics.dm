@@ -47,6 +47,8 @@
 					"Vehicle",
 					"Rigsuit",
 					"Phazon",
+					"Pinnace",
+					"Baron",
 					"Gopher",
 					"Polecat",
 					"Weasel",

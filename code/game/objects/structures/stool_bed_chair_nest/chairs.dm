@@ -7,7 +7,7 @@
 	base_icon = "chair"
 	buckle_dir = 0
 	buckle_lying = 0 //force people to sit up in chairs when buckled
-	icon_dimension_y = 32
+	icon_y_dimension = 32
 	throw_force = 8
 	var/picked_up_item = /obj/item/material/twohanded/folded_metal_chair
 	var/propelled = 0 // Check for fire-extinguisher-driven chairs
@@ -602,10 +602,10 @@
 	drop_sound = 'sound/effects/metal_chair_clang.ogg'
 	var/placed_object = /obj/structure/bed/chair
 
-/obj/item/material/twohanded/folded_metal_chair/afterattack(atom/target, mob/user, proximity)
+/obj/item/material/twohanded/folded_metal_chair/afterattack(atom/target, mob/user, clickchain_flags, list/params)
 	if(!isturf(target)) // not turf
 		return ..()
-	if(!proximity) // not adjacent
+	if(!(clickchain_flags & CLICKCHAIN_HAS_PROXIMITY)) // not adjacent
 		return ..()
 	if(target.density) // is dense
 		return ..()

@@ -46,8 +46,8 @@
 	. = CLICKCHAIN_DO_NOT_PROPAGATE
 	standard_feed_mob(user, target)
 
-/obj/item/reagent_containers/food/drinks/afterattack(obj/target, mob/user, proximity)
-	if(!proximity)
+/obj/item/reagent_containers/food/drinks/afterattack(atom/target, mob/user, clickchain_flags, list/params)
+	if(!(clickchain_flags & CLICKCHAIN_HAS_PROXIMITY))
 		return
 	if(standard_dispenser_refill(user, target))
 		return
@@ -68,7 +68,7 @@
 	return ..()
 
 /obj/item/reagent_containers/food/drinks/standard_pour_into(var/mob/user, var/atom/target)
-	if(!is_open_container())
+	if(!is_open_container() && target.reagents)
 		to_chat(user, "<span class='notice'>You need to open [src]!</span>")
 		return 1
 	if(target == loc) //prevent filling a machine with a glass you just put into it.

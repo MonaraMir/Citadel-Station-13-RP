@@ -183,10 +183,10 @@
 /obj/item/rcd/proc/can_afford(amount)
 	return stored_matter >= amount
 
-/obj/item/rcd/afterattack(atom/A, mob/living/user, proximity)
-	if(!ranged && !proximity)
+/obj/item/rcd/afterattack(atom/target, mob/user, clickchain_flags, list/params)
+	if(!ranged && !(clickchain_flags & CLICKCHAIN_HAS_PROXIMITY))
 		return FALSE
-	use_rcd(A, user)
+	use_rcd(target, user)
 
 // Used to call rcd_act() on the atom hit.
 /obj/item/rcd/proc/use_rcd(atom/A, mob/living/user)
@@ -330,9 +330,9 @@
 	if(isrobot(loc)) // In a borg.
 		var/mob/living/silicon/robot/R = loc
 		return R.cell
-	if(istype(loc, /obj/item/rig_module)) // In a RIG.
-		var/obj/item/rig_module/module = loc
-		if(module.holder) // Is it attached to a RIG?
+	if(istype(loc, /obj/item/hardsuit_module)) // In a HARDSUIT.
+		var/obj/item/hardsuit_module/module = loc
+		if(module.holder) // Is it attached to a HARDSUIT?
 			return module.holder.cell
 	if(istype(loc, /obj/item/mecha_parts/mecha_equipment)) // In a mech.
 		var/obj/item/mecha_parts/mecha_equipment/ME = loc
@@ -360,10 +360,10 @@
 
 
 // RCDs for RIGs.
-/obj/item/rcd/electric/mounted/rig
+/obj/item/rcd/electric/mounted/hardsuit
 
 // Old method for swapping modes as there is no way to bring up the radial.
-/obj/item/rcd/electric/mounted/rig/attack_self(mob/user)
+/obj/item/rcd/electric/mounted/hardsuit/attack_self(mob/user)
 	. = ..()
 	if(.)
 		return

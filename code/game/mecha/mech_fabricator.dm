@@ -73,6 +73,8 @@
 		"Vehicle",
 		"Rigsuit",
 		"Phazon",
+		"Pinnace",
+		"Baron",
 		"Gopher",
 		"Polecat",
 		"Weasel",
@@ -191,6 +193,10 @@
 					category_override += "Durand"
 				if(mech_types & EXOSUIT_MODULE_PHAZON)
 					category_override += "Phazon"
+				if(mech_types & EXOSUIT_MODULE_PINNACE)
+					category_override += "Pinnace"
+				if(mech_types & EXOSUIT_MODULE_BARON)
+					category_override += "Baron"
 
 	var/list/part = list(
 		"name" = D.name,
