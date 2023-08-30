@@ -2795,7 +2795,7 @@
 /obj/effect/floor_decal/rust,
 /obj/random/trash_pile,
 /turf/simulated/floor/plating,
-/area/security/armory/blue)
+/area/maintenance/security/lower)
 "bPE" = (
 /obj/structure/table/woodentable,
 /obj/item/flashlight/lantern,
@@ -6979,7 +6979,7 @@
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/security/armory/blue)
+/area/maintenance/security/lower)
 "ell" = (
 /obj/structure/railing{
 	dir = 1
@@ -7739,6 +7739,9 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/maintenance/sec,
+/obj/machinery/door/firedoor/glass{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/space)
 "eKk" = (
@@ -8189,6 +8192,17 @@
 /obj/structure/flora/bush,
 /turf/simulated/floor/snow,
 /area/maintenance/research/lower)
+"faW" = (
+/obj/structure/foamedmetal,
+/obj/structure/grille,
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/security/lower)
 "fbq" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/disposalpipe/segment,
@@ -8307,6 +8321,9 @@
 /obj/structure/grille,
 /obj/structure/cable/green{
 	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	icon_state = "0-4"
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/security/lower)
@@ -9989,9 +10006,6 @@
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/tiled/steel,
 /area/security/prison)
-"gly" = (
-/turf/simulated/wall/prepainted,
-/area/space)
 "glF" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 4
@@ -14118,11 +14132,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/medical/virologytransiteast)
-"iBg" = (
-/obj/effect/floor_decal/rust,
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/maintenance/security/lower)
 "iBr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -18789,6 +18798,17 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/rnd/outpost/xenobiology/outpost_decon)
+"lhO" = (
+/obj/machinery/door/firedoor/glass,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "genpop_lockdown";
+	name = "Genpop Blast Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/concrete/rng/indoors,
+/area/space)
 "lhZ" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on,
 /obj/structure/disposalpipe/segment,
@@ -18906,6 +18926,12 @@
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/white,
 /area/medical/psych_ward)
+"lmQ" = (
+/obj/machinery/door/firedoor/glass{
+	dir = 8
+	},
+/turf/simulated/floor/concrete/rng/indoors,
+/area/space)
 "lnK" = (
 /obj/structure/table/rack/shelf,
 /obj/random/junk,
@@ -19649,6 +19675,9 @@
 	id = "armoryriot";
 	name = "Emergency Armory Access"
 	},
+/obj/machinery/door/firedoor/glass{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armory/blue)
 "lLS" = (
@@ -19962,6 +19991,9 @@
 	dir = 4;
 	id = "armoryriot";
 	name = "Emergency Armory Access"
+	},
+/obj/machinery/door/firedoor/glass{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armory/blue)
@@ -21327,9 +21359,6 @@
 /obj/structure/transit_tube/high_velocity,
 /turf/simulated/floor/tiled/white,
 /area/medical/virologytransitwest)
-"mCX" = (
-/turf/simulated/floor/plating,
-/area/security/armory/blue)
 "mDl" = (
 /obj/item/stack/rods,
 /obj/item/stack/rods,
@@ -21692,6 +21721,7 @@
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/lowmedbaymaint)
 "mQx" = (
@@ -24544,6 +24574,10 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/rnd/xenoarch_storage)
+"onh" = (
+/obj/structure/catwalk,
+/turf/space/basic,
+/area/maintenance/security/lower)
 "onl" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
@@ -25367,6 +25401,7 @@
 	id = "armorytactical";
 	name = "Tactical Armory Access"
 	},
+/obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/dark,
 /area/security/armory/red)
 "oNz" = (
@@ -25804,6 +25839,14 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/research/lower)
+"oXX" = (
+/obj/structure/foamedmetal,
+/obj/structure/grille,
+/obj/structure/cable/green{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "oXZ" = (
 /obj/structure/toilet{
 	dir = 1
@@ -26395,7 +26438,7 @@
 /obj/structure/table/steel,
 /obj/random/maintenance/security,
 /turf/simulated/floor/plating,
-/area/security/armory/blue)
+/area/maintenance/security/lower)
 "pma" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -27628,7 +27671,7 @@
 "qad" = (
 /obj/machinery/door/airlock/maintenance/sec,
 /turf/simulated/floor/plating,
-/area/maintenance/security/lower)
+/area/space)
 "qaG" = (
 /obj/structure/table/rack/shelf/steel,
 /obj/effect/floor_decal/borderfloor,
@@ -28131,6 +28174,9 @@
 /obj/structure/grille,
 /obj/structure/cable/green{
 	icon_state = "2-8"
+	},
+/obj/structure/cable/green{
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/security/lower)
@@ -28966,7 +29012,7 @@
 	},
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
-/area/security/armory/blue)
+/area/maintenance/security/lower)
 "qQo" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/crate/internals,
@@ -28986,6 +29032,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/evahallway)
+"qQR" = (
+/obj/machinery/door/firedoor/glass{
+	dir = 8
+	},
+/obj/machinery/door/airlock/multi_tile/glass/security{
+	dir = 4;
+	name = "Genpop Monitoring";
+	req_one_access = list(2)
+	},
+/turf/simulated/floor/concrete/rng/indoors,
+/area/space)
 "qQS" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 6
@@ -30695,6 +30752,9 @@
 /obj/structure/grille,
 /obj/structure/cable/green{
 	icon_state = "1-4"
+	},
+/obj/structure/cable/green{
+	icon_state = "0-4"
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/security/lower)
@@ -32726,6 +32786,12 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
+/obj/structure/cable/green{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/security/lower)
 "sSI" = (
@@ -33583,9 +33649,6 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/quartermaster/foyer)
-"tqY" = (
-/turf/simulated/wall/r_wall/prepainted/security,
-/area/maintenance/security/lower)
 "trb" = (
 /turf/simulated/floor/tiled/steel,
 /area/rift/trade_shop)
@@ -35806,6 +35869,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/starboard)
+"uwF" = (
+/obj/structure/girder,
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/plating,
+/area/maintenance/security/lower)
 "uxG" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 10
@@ -36236,6 +36304,9 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
+/obj/machinery/door/firedoor/glass{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/space)
 "uHT" = (
@@ -36533,10 +36604,6 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/security/checkpoint)
-"uRV" = (
-/obj/structure/girder,
-/turf/simulated/floor/plating,
-/area/security/armory/blue)
 "uSe" = (
 /obj/machinery/space_heater,
 /turf/simulated/floor/tiled/steel_dirty,
@@ -37193,6 +37260,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/substation/cargo)
+"vlu" = (
+/obj/machinery/door/firedoor/glass,
+/turf/simulated/floor/concrete/tile/indoors,
+/area/space)
 "vly" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -38815,6 +38886,16 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/cargo)
+"wmC" = (
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "genpop_lockdown";
+	name = "Genpop Blast Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/concrete/tile/indoors,
+/area/space)
 "wmH" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
@@ -39810,14 +39891,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/medical/psych/psych_1)
-"wLt" = (
-/obj/structure/foamedmetal,
-/obj/structure/grille,
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/space)
 "wLX" = (
 /obj/structure/railing{
 	dir = 4
@@ -40378,6 +40451,7 @@
 	id = "armorytactical";
 	name = "Tactical Armory Access"
 	},
+/obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/dark,
 /area/security/armory/red)
 "xdq" = (
@@ -41239,6 +41313,17 @@
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/game_room)
+"xAf" = (
+/obj/machinery/door/firedoor/glass{
+	dir = 8
+	},
+/obj/machinery/door/airlock/multi_tile/glass/security{
+	dir = 4;
+	name = "Genpop";
+	req_one_access = list(2)
+	},
+/turf/simulated/floor/concrete/rng/indoors,
+/area/space)
 "xAW" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 4
@@ -41917,6 +42002,10 @@
 	},
 /turf/simulated/floor/wood,
 /area/lawoffice)
+"xWa" = (
+/obj/machinery/turnstile/entry,
+/turf/simulated/floor/tiled/steel,
+/area/space)
 "xWb" = (
 /obj/structure/sign/warning/caution,
 /turf/simulated/wall/prepainted/science,
@@ -60015,10 +60104,10 @@ gRM
 gRM
 gRM
 gRM
-sNp
-sNp
+lmQ
+qQR
 gRM
-tqY
+gRM
 jJW
 cEq
 cEq
@@ -60207,12 +60296,12 @@ sNp
 sNp
 uLI
 sNp
+lhO
 sNp
 sNp
 sNp
 sNp
-sNp
-tqY
+gRM
 dMX
 dMX
 dMX
@@ -60401,7 +60490,7 @@ sNp
 sNp
 uLI
 sNp
-sNp
+lhO
 sNp
 sNp
 sNp
@@ -60595,12 +60684,12 @@ sNp
 sNp
 uLI
 sNp
+lhO
 sNp
 sNp
 sNp
 sNp
-sNp
-tqY
+gRM
 dMX
 dMX
 dMX
@@ -60791,8 +60880,8 @@ gRM
 gRM
 gRM
 gRM
-sNp
-sNp
+lmQ
+xAf
 gRM
 gRM
 gRM
@@ -60967,9 +61056,9 @@ gRM
 gRM
 gRM
 gRM
-ikS
 gRM
 gRM
+gRM
 sNp
 sNp
 sNp
@@ -60983,7 +61072,7 @@ ikS
 ikS
 ikS
 ikS
-ikS
+wmC
 gwc
 sNp
 sNp
@@ -61154,8 +61243,8 @@ sDY
 sDY
 dMX
 nau
-gly
-wLt
+tdI
+fgF
 gRM
 xvr
 sNp
@@ -61177,7 +61266,7 @@ ikS
 ikS
 ikS
 ikS
-ikS
+wmC
 gwc
 sNp
 sNp
@@ -61348,12 +61437,13 @@ vpu
 sDY
 dMX
 uSG
-gly
-wLt
+tdI
+fgF
 gRM
 sKA
 sNp
 sNp
+vlu
 ikS
 ikS
 ikS
@@ -61366,12 +61456,11 @@ ikS
 ikS
 ikS
 ikS
+wmC
 ikS
 ikS
 ikS
-ikS
-ikS
-ikS
+wmC
 gwc
 sNp
 sNp
@@ -61542,8 +61631,8 @@ upJ
 chz
 dMX
 uSG
-gly
-wLt
+tdI
+fgF
 gRM
 gRM
 gRM
@@ -61565,7 +61654,7 @@ ikS
 ikS
 ikS
 ikS
-ikS
+wmC
 gwc
 sNp
 jHI
@@ -61736,8 +61825,8 @@ wtn
 sDY
 dMX
 uSG
-gly
-wLt
+tdI
+fgF
 gRM
 xvr
 sNp
@@ -61759,7 +61848,7 @@ ikS
 ikS
 ikS
 ikS
-ikS
+wmC
 xlD
 jHI
 jHI
@@ -61930,12 +62019,13 @@ sDY
 sDY
 dMX
 uSG
-gly
-wLt
+tdI
+fgF
 gRM
 sKA
 sNp
 sNp
+vlu
 ikS
 ikS
 ikS
@@ -61952,12 +62042,11 @@ ikS
 ikS
 ikS
 ikS
-ikS
-ikS
-xlD
+gRM
+gRM
+jHI
 jHI
 vbv
-jHI
 jHI
 jHI
 jHI
@@ -62124,8 +62213,8 @@ hgE
 tdI
 dMX
 uSG
-gly
-wLt
+tdI
+fgF
 gRM
 gRM
 gRM
@@ -62147,11 +62236,11 @@ ikS
 ikS
 ikS
 ikS
-ikS
-xlD
+wmC
+xWa
+jHI
 kio
 cwD
-jHI
 jHI
 jHI
 jHI
@@ -62318,8 +62407,8 @@ hgE
 tdI
 dMX
 uSG
-gly
-wLt
+tdI
+fgF
 gRM
 xvr
 sNp
@@ -62341,11 +62430,11 @@ ikS
 ikS
 ikS
 ikS
-ikS
-xlD
+wmC
+xWa
+jHI
 kio
 cwD
-jHI
 jHI
 jHI
 jHI
@@ -62508,16 +62597,17 @@ hgE
 hgE
 hgE
 hgE
-tdI
+hgE
 tdI
 ovB
 uSG
-gly
-wLt
+tdI
+fgF
 gRM
 sKA
 sNp
 sNp
+vlu
 ikS
 ikS
 ikS
@@ -62534,12 +62624,11 @@ ikS
 ikS
 ikS
 ikS
-ikS
-ikS
-xlD
+wmC
+xWa
+jHI
 kio
 cwD
-jHI
 jHI
 jHI
 jHI
@@ -62702,12 +62791,12 @@ gzd
 hgE
 hgE
 hgE
+hgE
 tdI
 dMX
-dMX
 uSG
-gly
-wLt
+tdI
+fgF
 gRM
 gRM
 gRM
@@ -62729,11 +62818,11 @@ ikS
 ikS
 ikS
 ikS
-ikS
-xlD
+gRM
+gRM
+jHI
 jHI
 aBH
-jHI
 jHI
 jHI
 jHI
@@ -62896,15 +62985,15 @@ gzd
 gzd
 gzd
 hgE
+hgE
 tdI
-dMX
 dMX
 uSG
 tdI
 qnK
-sSC
-sSC
-sSC
+faW
+faW
+faW
 rQl
 gRM
 ikS
@@ -62923,7 +63012,7 @@ ikS
 ikS
 ikS
 ikS
-ikS
+wmC
 xlD
 jHI
 jHI
@@ -63090,9 +63179,9 @@ gzd
 gzd
 gzd
 hgE
+hgE
 tdI
-dMX
-dMX
+uwF
 uSG
 tdI
 tdI
@@ -63117,7 +63206,7 @@ ikS
 ikS
 ikS
 ikS
-ikS
+wmC
 xlD
 jHI
 jHI
@@ -63284,9 +63373,9 @@ gzd
 gzd
 hgE
 hgE
+hgE
 tdI
 dMX
-uSG
 uSG
 uSG
 uSG
@@ -63311,7 +63400,7 @@ ikS
 ikS
 ikS
 ikS
-ikS
+wmC
 xlD
 jHI
 jHI
@@ -63478,9 +63567,9 @@ gzd
 gzd
 gzd
 hgE
+hgE
 tdI
-dMX
-uSG
+ouV
 uSG
 dMX
 dMX
@@ -63505,7 +63594,7 @@ ikS
 ikS
 ikS
 ikS
-ikS
+gRM
 gRM
 gRM
 eKj
@@ -63672,13 +63761,13 @@ gzd
 gzd
 hgE
 hgE
+hgE
 tdI
 ouV
-iBg
+onh
 jub
 eSv
 tdI
-sny
 uSG
 tdI
 fgF
@@ -63698,9 +63787,9 @@ ikS
 ikS
 ikS
 ikS
-ikS
-ikS
 gRM
+gRM
+tdI
 wqj
 uoZ
 pcy
@@ -63866,13 +63955,13 @@ hgE
 hgE
 hgE
 hgE
+hgE
 tdI
 tdI
 tdI
 tdI
 tdI
 tdI
-dMX
 uSG
 tdI
 fgF
@@ -63893,8 +63982,8 @@ gRM
 gRM
 gRM
 gRM
-gRM
-gRM
+oXX
+tdI
 uSG
 mvK
 dMX
@@ -64070,23 +64159,23 @@ dMX
 uSG
 tdI
 qnK
-sSC
-sSC
-sSC
-sSC
-sSC
-sSC
-sSC
-sSC
-sSC
-sSC
-sSC
-sSC
-sSC
-sSC
-sSC
-sSC
-sSC
+faW
+faW
+faW
+faW
+faW
+faW
+faW
+faW
+faW
+faW
+faW
+faW
+faW
+faW
+faW
+faW
+faW
 sSC
 uEc
 eSY
@@ -65247,7 +65336,7 @@ nPG
 pvE
 pvE
 qQd
-mCX
+dMX
 uBo
 tgG
 fiU
@@ -65441,7 +65530,7 @@ omn
 eKm
 wET
 uKP
-uRV
+sny
 uBo
 xwR
 mmF
