@@ -609,6 +609,12 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/hallway/primary/surfaceone)
+"auI" = (
+/obj/structure/sign/directions/security{
+	dir = 1
+	},
+/turf/simulated/wall/r_wall/prepainted/security,
+/area/space)
 "avr" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 8
@@ -797,12 +803,6 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/rnd/testingroom)
-"aBH" = (
-/obj/structure/railing/grey{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/steel,
-/area/space)
 "aBW" = (
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/borderfloor,
@@ -3799,7 +3799,7 @@
 /area/security/security_cell_hallway)
 "cwD" = (
 /obj/structure/stairs/spawner/north,
-/turf/simulated/floor/tiled/steel,
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "cwV" = (
 /obj/structure/window/reinforced/tinted/frosted{
@@ -5575,6 +5575,23 @@
 "dvn" = (
 /turf/simulated/floor/plating,
 /area/maintenance/substation/research/xenobiology_lab)
+"dvt" = (
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "genpop_lockdown";
+	name = "Genpop Blast Doors";
+	opacity = 0
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/turnstile/exit{
+	dir = 1
+	},
+/obj/structure/sign/directions/evac{
+	pixel_x = 32
+	},
+/turf/simulated/floor/concrete/rng/indoors,
+/area/space)
 "dwr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/airlock{
@@ -6335,6 +6352,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/cargo)
+"dSW" = (
+/obj/structure/sign/directions/evac{
+	pixel_x = 32
+	},
+/turf/simulated/floor/concrete/rng/indoors,
+/area/space)
 "dTo" = (
 /turf/simulated/wall/prepainted/science,
 /area/rnd/outpost/xenobiology/outpost_first_aid)
@@ -8984,6 +9007,12 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/evahallway)
+"fED" = (
+/obj/structure/sign/directions/cryo{
+	dir = 1
+	},
+/turf/simulated/wall/r_wall/prepainted/security,
+/area/space)
 "fFd" = (
 /turf/simulated/open,
 /area/turbolift/rsurface/level1)
@@ -12649,6 +12678,20 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/patient_wing)
+"hJP" = (
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "genpop_lockdown";
+	name = "Genpop Blast Doors";
+	opacity = 0
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/turnstile/exit{
+	dir = 1
+	},
+/turf/simulated/floor/concrete/rng/indoors,
+/area/space)
 "hKa" = (
 /obj/machinery/atmospherics/pipe/simple/visible/supply,
 /obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
@@ -15486,6 +15529,17 @@
 "jlF" = (
 /turf/simulated/floor/plating,
 /area/maintenance/maint_bar)
+"jma" = (
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "genpop_lockdown";
+	name = "Genpop Blast Doors";
+	opacity = 0
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/concrete/tile/indoors,
+/area/space)
 "jmJ" = (
 /obj/item/radio/intercom{
 	dir = 4;
@@ -16224,7 +16278,16 @@
 /turf/simulated/floor/tiled/steel,
 /area/quartermaster/hallway)
 "jHI" = (
-/turf/simulated/floor/tiled/steel,
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"jHK" = (
+/obj/machinery/turnstile/exit{
+	dir = 1
+	},
+/turf/simulated/floor/concrete/rng/indoors,
 /area/space)
 "jHS" = (
 /turf/simulated/floor/tiled/steel,
@@ -16382,6 +16445,12 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/hallway/primary/surfaceone)
+"jNZ" = (
+/obj/structure/sign/directions/evac{
+	pixel_x = -31
+	},
+/turf/simulated/floor/concrete/rng/indoors,
+/area/space)
 "jOd" = (
 /obj/effect/floor_decal/corner_techfloor_grid{
 	dir = 4
@@ -17000,7 +17069,7 @@
 /area/rift/stairwell/primary/surfaceone)
 "kio" = (
 /obj/structure/railing/grey,
-/turf/simulated/floor/tiled/steel,
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "kiE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -18799,13 +18868,19 @@
 /turf/simulated/floor/tiled/steel,
 /area/rnd/outpost/xenobiology/outpost_decon)
 "lhO" = (
-/obj/machinery/door/firedoor/glass,
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
 	id = "genpop_lockdown";
 	name = "Genpop Blast Doors";
 	opacity = 0
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/turnstile/exit{
+	dir = 1
+	},
+/obj/structure/sign/directions/evac{
+	pixel_x = -31
 	},
 /turf/simulated/floor/concrete/rng/indoors,
 /area/space)
@@ -31612,6 +31687,12 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/quartermaster/foyer)
+"smP" = (
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
 "smQ" = (
 /obj/machinery/door/airlock/maintenance/int{
 	req_one_access = list(38)
@@ -31811,6 +31892,10 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/forensics)
+"srs" = (
+/obj/structure/metal_edge,
+/turf/simulated/floor/concrete/tile/indoors,
+/area/space)
 "srB" = (
 /obj/machinery/door/blast/shutters{
 	dir = 2;
@@ -36917,12 +37002,6 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/office)
-"vbv" = (
-/obj/structure/railing/grey{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/steel,
-/area/space)
 "vbL" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
 /obj/structure/disposalpipe/segment,
@@ -37262,7 +37341,7 @@
 /area/maintenance/substation/cargo)
 "vlu" = (
 /obj/machinery/door/firedoor/glass,
-/turf/simulated/floor/concrete/tile/indoors,
+/turf/simulated/floor/concrete/rng/indoors,
 /area/space)
 "vly" = (
 /obj/structure/cable/green{
@@ -40794,7 +40873,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/steel,
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "xlG" = (
 /obj/structure/bed/double/padded,
@@ -42004,7 +42083,7 @@
 /area/lawoffice)
 "xWa" = (
 /obj/machinery/turnstile/entry,
-/turf/simulated/floor/tiled/steel,
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "xWb" = (
 /obj/structure/sign/warning/caution,
@@ -60291,8 +60370,8 @@ aMv
 sNp
 sNp
 sNp
-sNp
-sNp
+jNZ
+jHK
 sNp
 uLI
 sNp
@@ -60486,11 +60565,11 @@ aMv
 sNp
 sNp
 sNp
-sNp
+jHK
 sNp
 uLI
 sNp
-lhO
+hJP
 sNp
 sNp
 sNp
@@ -60679,12 +60758,12 @@ aMv
 sNp
 sNp
 sNp
-sNp
-sNp
+dSW
+jHK
 sNp
 uLI
 sNp
-lhO
+dvt
 sNp
 sNp
 sNp
@@ -60863,7 +60942,7 @@ eSU
 pEN
 gRM
 gRM
-gRM
+fED
 sNp
 sNp
 sNp
@@ -61072,7 +61151,7 @@ ikS
 ikS
 ikS
 ikS
-wmC
+jma
 gwc
 sNp
 sNp
@@ -61266,7 +61345,7 @@ ikS
 ikS
 ikS
 ikS
-wmC
+jma
 gwc
 sNp
 sNp
@@ -61460,16 +61539,16 @@ wmC
 ikS
 ikS
 ikS
-wmC
+jma
 gwc
 sNp
 sNp
-jHI
-jHI
-jHI
-jHI
-jHI
-jHI
+oQd
+oQd
+oQd
+oQd
+oQd
+oQd
 gRM
 dMX
 dHp
@@ -61654,16 +61733,16 @@ ikS
 ikS
 ikS
 ikS
-wmC
+jma
 gwc
 sNp
-jHI
-jHI
-jHI
-jHI
-jHI
-jHI
-jHI
+oQd
+oQd
+oQd
+oQd
+oQd
+oQd
+oQd
 gRM
 gvB
 bZH
@@ -61848,16 +61927,16 @@ ikS
 ikS
 ikS
 ikS
-wmC
+jma
 xlD
-jHI
-jHI
-jHI
-jHI
-jHI
-jHI
-jHI
-jHI
+oQd
+oQd
+oQd
+oQd
+oQd
+oQd
+oQd
+oQd
 gRM
 dMX
 cnr
@@ -62043,15 +62122,15 @@ ikS
 ikS
 ikS
 gRM
-gRM
+auI
+oQd
+oQd
 jHI
 jHI
-vbv
-jHI
-jHI
-jHI
-jHI
-jHI
+oQd
+oQd
+oQd
+oQd
 dzm
 cEq
 fPo
@@ -62231,21 +62310,21 @@ ikS
 ikS
 ikS
 ikS
+gRM
+gRM
+srs
 ikS
 ikS
-ikS
-ikS
-ikS
-wmC
+jma
 xWa
-jHI
+oQd
 kio
 cwD
-jHI
-jHI
-jHI
-jHI
-jHI
+oQd
+oQd
+oQd
+oQd
+oQd
 gRM
 cjy
 cjy
@@ -62425,21 +62504,21 @@ ikS
 ikS
 ikS
 ikS
+gRM
+gRM
+srs
 ikS
 ikS
-ikS
-ikS
-ikS
-wmC
+jma
 xWa
-jHI
+oQd
 kio
 cwD
-jHI
-jHI
-jHI
-jHI
-jHI
+oQd
+oQd
+oQd
+oQd
+oQd
 gRM
 cjy
 nkk
@@ -62624,16 +62703,16 @@ ikS
 ikS
 ikS
 ikS
-wmC
-xWa
-jHI
-kio
-cwD
-jHI
-jHI
-jHI
-jHI
-jHI
+gRM
+auI
+oQd
+oQd
+smP
+smP
+oQd
+oQd
+oQd
+oQd
 gRM
 cjy
 osj
@@ -62818,16 +62897,16 @@ ikS
 ikS
 ikS
 ikS
-gRM
-gRM
-jHI
-jHI
-aBH
-jHI
-jHI
-jHI
-jHI
-jHI
+jma
+xlD
+oQd
+oQd
+oQd
+oQd
+oQd
+oQd
+oQd
+oQd
 gRM
 cjy
 fNh
@@ -63012,16 +63091,16 @@ ikS
 ikS
 ikS
 ikS
-wmC
+jma
 xlD
-jHI
-jHI
-jHI
-jHI
-jHI
-jHI
-jHI
-jHI
+oQd
+oQd
+oQd
+oQd
+oQd
+oQd
+oQd
+oQd
 gRM
 cjy
 xRD
@@ -63206,13 +63285,13 @@ ikS
 ikS
 ikS
 ikS
-wmC
+jma
 xlD
-jHI
-jHI
-jHI
-jHI
-jHI
+oQd
+oQd
+oQd
+oQd
+oQd
 gRM
 gRM
 gRM
@@ -63400,12 +63479,12 @@ ikS
 ikS
 ikS
 ikS
-wmC
+jma
 xlD
-jHI
-jHI
-jHI
-jHI
+oQd
+oQd
+oQd
+oQd
 gRM
 gRM
 lHm
