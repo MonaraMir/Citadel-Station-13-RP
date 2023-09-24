@@ -13844,6 +13844,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/rnd/research/testingrange)
+"iZv" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing,
+/turf/simulated/floor/plating,
+/area/maintenance/security/upper)
 "iZF" = (
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/purple/border,
@@ -17882,6 +17889,13 @@
 	},
 /turf/simulated/floor/tiled/monowhite,
 /area/medical/sleeper)
+"lzX" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/maintenance/security/upper)
 "lzZ" = (
 /obj/structure/table/reinforced,
 /obj/machinery/reagentgrinder,
@@ -21092,11 +21106,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/warden)
-"nCi" = (
-/obj/machinery/door/airlock/maintenance/common,
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/maintenance/security/upper)
 "nCo" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -58384,12 +58393,12 @@ dMN
 fHx
 xwa
 aZS
-aKq
 kcn
 kcn
 kcn
 kcn
-vBG
+kcn
+gIF
 vBG
 bVr
 yfc
@@ -58578,13 +58587,13 @@ vqS
 vqS
 niX
 aZS
-aKq
-vjN
-vjN
-jux
 kcn
-vBG
-vBG
+aOv
+aOv
+lzX
+lMt
+lMt
+lMt
 bVr
 yfc
 eGx
@@ -58772,13 +58781,13 @@ vqS
 vqS
 jqL
 aZS
-aKq
-aOv
-aOv
-lMt
-nCi
-lMt
-lMt
+kcn
+fzS
+iZv
+vBG
+vBG
+vBG
+vBG
 bVr
 yfc
 eGx
@@ -58966,12 +58975,12 @@ fEx
 vqS
 kKh
 aZS
-aKq
-fzS
-fzS
-vBG
 kcn
-vBG
+kcn
+kcn
+kcn
+kcn
+kcn
 vBG
 bVr
 yfc
@@ -59160,12 +59169,12 @@ vqS
 vqS
 lye
 aZS
-aKq
+pBj
+pBj
+pBj
+pBj
+pBj
 kcn
-kcn
-kcn
-kcn
-vBG
 vBG
 bVr
 gjx
